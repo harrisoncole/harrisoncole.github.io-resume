@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  height: 20px;
+  width: 100px;
+  box-shadow: none;
+  background-color: rgb(100, 89, 196);
+  color: rgb(255, 255, 255);
+  border-radius: 1000px;
+  padding: 13px;
+}
+
+.btn:hover {
+  background-color: rgb(100, 102, 196);
+}
